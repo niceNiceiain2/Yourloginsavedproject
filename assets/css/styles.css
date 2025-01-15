@@ -1,0 +1,51 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.header {
+    background-color: #4ea72e; /* Green background for the header */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigation Menu Styles */
+.nav-menu {
+    text-align: center; /* Center align the navigation links */
+    background-color: #4ea72e; /* Same green for consistency */
+}
+
+/* Button Styles */
+.button {
+    text-decoration: none; /* Remove underline from links */
+    font: bold 12px Arial; /* Font styling */
+    background-color: #4472C4; /* Default button color */
+    color: #FFFFFF; /* Text color */
+    padding: 5px; /* Space inside the button */
+    margin: 5px; /* Space around the button */
+    border-radius: 4px; /* Rounded corners (optional) */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Button Hover Effect */
+.button:hover {
+    background-color: #4ea72e; /* Change color on hover */
+}
+
+/* Content Styles */
+.content {
+    padding: 20px; /* Space for content */
+}
+
+/* Default Text Alignment */
+.default {
+    text-align: center; /* Center align default text */
+}
+
+.container{
+	padding-top:75px;
+}
